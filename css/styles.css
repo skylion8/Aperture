@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#181818;
+    padding: 24px 0;
+}
+.conteiner{
+    max-width:1200px ;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav ul li{
+    margin-left: 32px;
+}
+header nav ul li a{
+    font: 15px/ 20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header nav ul li:first-of-type{
+    margin-right: 24px;
+}
+header nav ul li:first-of-type a{
+    font-size:13px;
+}
+header nav ul li:last-of-type a{
+    font: 16px/20px 'poppinsregular';
+    padding: 11px 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.banner_text{
+    padding-top: 450px;
+    max-width: 580px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url('../img/image.jpg');
+    background-repeat: no-repeat;
+    height: 100vh; background-size: cover;
+}
+section div h2{
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+section div h1{
+    font: 54px/59px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.banner_p{
+    font: 14px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
