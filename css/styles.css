@@ -145,6 +145,10 @@ section div h1{
     justify-content: flex-end;
     align-items: center;
 }
+.sub_conteiner{
+    max-width: 298px;
+    margin-right: 62px;
+}
 .portfolio h5{
     font: 14px 'poppinsregular';
     font-style: normal;
