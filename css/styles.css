@@ -171,6 +171,8 @@ section div h1{
     max-width: 1550px;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 113px;
 }
 .help h5{
     font: 40px 'poppinsregular';
@@ -178,7 +180,6 @@ section div h1{
     font-weight: 400;
     line-height: 42px;
     color: #FFFFFF;
-    padding-top: 113px;
     max-width: 571px;
     margin-bottom: 15px;
 }
@@ -210,7 +211,5 @@ section div h1{
     width: 22px;
     border-radius: 14px;
     display: inline-block;
-
-
 }
 
