@@ -199,7 +199,7 @@ section div h1{
     padding-bottom: 140px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 900px;
     text-align: center;
 
 }
@@ -209,6 +209,9 @@ section div h1{
     margin: 0 auto;
     padding-bottom: 100px;
     padding-top: 113px;
+}
+.client .conteiner{
+
 }
 .help h5{
     font: 40px 'poppinsregular';
