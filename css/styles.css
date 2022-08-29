@@ -200,6 +200,8 @@ section div h1{
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    text-align: center;
+
 }
 .help{
     background: #000000;
