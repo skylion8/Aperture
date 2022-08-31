@@ -606,7 +606,7 @@
 	 * Prepares an item before add.
 	 * @todo Rename event parameter `content` to `item`.
 	 * @protected
-	 * @returns {jQuery|HTMLElement} - The item container.
+	 * @returns {jQuery|HTMLElement} - The item .
 	 */
 	Owl.prototype.prepare = function(item) {
 		var event = this.trigger('prepare', { content: item });

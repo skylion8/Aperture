@@ -199,10 +199,26 @@ section div h1{
     padding-bottom: 140px;
     justify-content: space-between;
     align-items: center;
-    max-width: 900px;
-    text-align: center;
+    max-width: 1160px;
 
 }
+.owl-carousel .owl-item img{
+    max-width: 128px;
+    margin: auto;
+}
+.owl-dots {
+    margin: auto;
+    max-width: 100px;
+
+}
+.owl-dots .owl-dot:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #FFFFFF;
+    content: "\f111";
+
+}
+
 .help{
     background: #000000;
     text-align: center;
@@ -210,9 +226,7 @@ section div h1{
     padding-bottom: 100px;
     padding-top: 113px;
 }
-.client .conteiner{
 
-}
 .help h5{
     font: 40px 'poppinsregular';
     font-style: normal;
