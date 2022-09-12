@@ -21,6 +21,7 @@ header{
 .conteiner{
     max-width:1200px ;
     margin: auto;
+    padding: 0 15px;
 }
 .d_flex{
     display: flex;
@@ -207,7 +208,7 @@ section div h1{
     margin: auto;
 }
 .owl-dots {
-    margin: auto;
+margin: auto;
     max-width: 100px;
 
 }
